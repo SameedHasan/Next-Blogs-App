@@ -243,3 +243,40 @@ body {
 .homeLink:hover {
   background-color: #005bb5;
 }
+
+/* Sidebar Styles */
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  top: 80px;
+  left: 0;
+}
+
+.sidebar-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.sidebar-nav-list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-nav-item {
+  margin-bottom: 10px;
+}
+
+.sidebar-nav-link {
+  text-decoration: none;
+  color: #0070f3;
+  font-size: 1.2em;
+}
+
+.sidebar-nav-link:hover {
+  text-decoration: underline;
+}
