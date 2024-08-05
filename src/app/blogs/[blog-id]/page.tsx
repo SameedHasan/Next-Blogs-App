@@ -52,7 +52,6 @@ const blogPosts = [
 export default function page(props: any) {
   const blogId = props.params["blog-id"];
   const foundPost = blogPosts.find((post) => post.slug === blogId);
-  console.log("props", foundPost);
 
   if (!foundPost) notFound();
   return (
