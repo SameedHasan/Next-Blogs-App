@@ -57,10 +57,9 @@ body {
 /* Blog List Page Styles */
 .blog-list {
   max-width: 90vw;
-  margin: 0px auto;
+  margin: 0px auto 100px 300px;
   padding: 20px;
   border-radius: 8px;
-  margin-left: 300px;
 }
 
 .blog-list h1 {
