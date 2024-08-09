@@ -4,7 +4,7 @@ export const BLOG_POSTS = [
     slug: "understanding-react",
     description:
       "A comprehensive guide to understanding the basics and advanced concepts of React.",
-    image: "https://via.placeholder.com/150/FF5733/FFFFFF?text=React",
+    image: "https://via.placeholder.com/300/FF5733/FFFFFF?text=React.js",
     category: "Frontend",
     content: `
       React is a JavaScript library for building user interfaces.
@@ -18,7 +18,7 @@ export const BLOG_POSTS = [
     slug: "nextjs-for-beginners",
     description:
       "An introduction to Next.js, the React framework for production.",
-    image: "https://via.placeholder.com/150/33FF57/FFFFFF?text=Next.js",
+    image: "https://via.placeholder.com/300/33FF57/FFFFFF?text=Next.js",
     category: "Frontend",
     content: `
       Next.js is a framework built on top of React, optimized for production.
@@ -31,7 +31,7 @@ export const BLOG_POSTS = [
     slug: "css-grid-layout",
     description:
       "Learn about the CSS Grid Layout module and how it can help you build complex layouts easily.",
-    image: "https://via.placeholder.com/150/FF33A1/FFFFFF?text=CSS+Grid",
+    image: "https://via.placeholder.com/300/FF33A1/FFFFFF?text=CSS+Grid",
     category: "Frontend",
     content: `
       CSS Grid Layout is a two-dimensional layout system for the web.
@@ -43,7 +43,7 @@ export const BLOG_POSTS = [
     title: "Building REST APIs with Node.js",
     slug: "building-rest-apis-nodejs",
     description: "A guide to creating RESTful APIs using Node.js and Express.",
-    image: "https://via.placeholder.com/150/3357FF/FFFFFF?text=Node.js",
+    image: "https://via.placeholder.com/300/3357FF/FFFFFF?text=Node.js",
     category: "Backend",
     content: `
       Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -56,7 +56,7 @@ export const BLOG_POSTS = [
     slug: "introduction-to-django",
     description:
       "Learn the basics of Django, a high-level Python web framework.",
-    image: "https://via.placeholder.com/150/FF5733/FFFFFF?text=Django",
+    image: "https://via.placeholder.com/300/FF8C00/FFFFFF?text=Django",
     category: "Backend",
     content: `
       Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
@@ -69,7 +69,7 @@ export const BLOG_POSTS = [
     slug: "understanding-graphql",
     description:
       "An introduction to GraphQL and how it can be used as an alternative to REST.",
-    image: "https://via.placeholder.com/150/33FF57/FFFFFF?text=GraphQL",
+    image: "https://via.placeholder.com/300/8A2BE2/FFFFFF?text=GraphQL",
     category: "Backend",
     content: `
       GraphQL is a query language for APIs and a runtime for executing those queries with your data.

@@ -28,8 +28,9 @@ export default function BlogsList({ title, blogs }: BlogsListProps) {
                 src={post.image}
                 alt={post.title}
                 className="blog-image"
-                width="100"
-                height="100"
+                width={300} // Adjust width as needed
+                height={150} // Ensure height matches the container height
+                quality={100} // Ensure high quality
               />
               <h2>{post.title}</h2>
               <p>{post.description}</p>
