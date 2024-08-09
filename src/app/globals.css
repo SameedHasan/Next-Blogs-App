@@ -56,15 +56,16 @@ body {
 /* Blog List Page Styles */
 .blog-list {
   max-width: 90vw;
-  margin: 50px auto;
+  margin: 0px auto;
   padding: 20px;
   border-radius: 8px;
+  margin-left: 300px;
 }
 
 .blog-list h1 {
   font-size: 2.5em;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .blog-cards {
@@ -82,6 +83,7 @@ body {
   overflow: hidden;
   width: 400px;
   transition: transform 0.3s ease;
+  padding: 20px;
 }
 
 .blog-card:hover {
@@ -92,7 +94,7 @@ body {
   text-decoration: none;
   color: inherit;
   display: block;
-  padding: 20px;
+
 }
 
 .blog-image {
@@ -244,22 +246,27 @@ body {
   background-color: #005bb5;
 }
 
+
 /* Sidebar Styles */
 .sidebar {
   width: 250px;
-  background-color: #f4f4f4;
+  background-color: #fff;
   border-right: 1px solid #ddd;
   padding: 20px;
   height: 100vh;
   position: fixed;
-  top: 80px;
+  top: 77px;
   left: 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
 }
 
 .sidebar-title {
-  font-size: 1.5em;
-  margin-bottom: 20px;
+  font-size: 1.6em;
+  margin-bottom: 25px;
   color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
 }
 
 .sidebar-nav-list {
@@ -268,15 +275,35 @@ body {
 }
 
 .sidebar-nav-item {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .sidebar-nav-link {
   text-decoration: none;
   color: #0070f3;
   font-size: 1.2em;
+  display: inline-block;
+  padding: 8px 0;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .sidebar-nav-link:hover {
-  text-decoration: underline;
+  color: #005bb5;
+  transform: translateX(5px);
+}
+
+.sidebar-nav-link::before {
+  content: '•';
+  margin-right: 10px;
+  color: #0070f3;
+  font-weight: bold;
+  transition: margin-right 0.3s ease;
+}
+
+.sidebar-nav-link:hover::before {
+  margin-right: 15px;
+}
+
+.sidebar-nav-item:last-child {
+  margin-bottom: 0;
 }

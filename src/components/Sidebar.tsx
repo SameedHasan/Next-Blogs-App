@@ -7,13 +7,13 @@ export default function Sidebar() {
       <h2 className="sidebar-title">Navigation</h2>
       <ul className="sidebar-nav-list">
         <li className="sidebar-nav-item">
-          <Link href="/">
-            <p className="sidebar-nav-link">Home</p>
+          <Link href="/blogs/frontend">
+            <p className="sidebar-nav-link">Frontend</p>
           </Link>
         </li>
         <li className="sidebar-nav-item">
-          <Link href="/blogs">
-            <p className="sidebar-nav-link">Blogs</p>
+          <Link href="/blogs/backend">
+            <p className="sidebar-nav-link">Backend</p>
           </Link>
         </li>
       </ul>
