@@ -1,5 +1,5 @@
+import BlogBackButton from "@/components/BlogBackButton";
 import { BLOG_POSTS } from "@/lib/dummy_data";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import React from "react";
 
@@ -18,9 +18,7 @@ export default function page(props: any) {
         <p>{foundPost.content}</p>
       </div>
       <div className="blog-footer">
-        <Link href="/blogs" className="back-to-blog">
-          Back to Blogs
-        </Link>
+        <BlogBackButton />
       </div>
     </div>
   );
